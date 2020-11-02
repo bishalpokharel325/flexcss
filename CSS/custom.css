@@ -1,0 +1,33 @@
+body {
+  background-color: grey;
+}
+.whole {
+  background-color: red;
+  height: 600px;
+  display: flex;
+  /* flex-direction: row/column/row-reverse/column-reverse; */
+  flex-direction: row;
+  /* flex-wrap: no-wrap/wrap/wrap-reverse; */
+  flex-wrap: nowrap;
+  /* justify-content: flex-start/flex-end/center/space-between/space-around/space-evenly */
+  justify-content: space-between;
+  /* align-items: flex-start/flex-end/center/stretch/baseline and keep wrap off */
+  align-items: baseline;
+  /* align-content: flex-start/flex-end/center/stretch/space-between/space-around */
+  align-content: flex-end;
+}
+.first {
+  background-color: grey;
+}
+.second {
+  background-color: blue;
+}
+.third {
+  background-color: yellow;
+}
+.fourth {
+  background-color: green;
+}
+.fifth {
+  background-color: purple;
+}
